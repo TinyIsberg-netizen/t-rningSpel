@@ -1,4 +1,4 @@
-# t-rningSpel
+# tärningSpel
 
 Välkommna användaren, hur vill du spela?
 Programmera in 2 två tärnings kast, 1-12
