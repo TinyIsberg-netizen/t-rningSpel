@@ -39,7 +39,7 @@ public class theGame{
         System.out.println("Välkommen till tärningsspelet! \nHär går leken ut på at ska du gissa summan av tärningnarna. \nGissa vad den totala summan blir, du får 3 försök.");
         boolean on = true;
         
-        do{
+        while ( on = true ){
         theFormula();
 
         System.out.println("Vill du spela igen? Ja / Nej");
@@ -60,11 +60,9 @@ public class theGame{
             default:
             System.out.println("Ogiltlig input");
             break;}
-        while(on == true);
+        }
     }
 
     }
 
-
-}
 
