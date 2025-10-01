@@ -1,6 +1,5 @@
 package Miia;
 import java.util.*;
-import java.lang.*;
 public class theGame{
     static void theFormula(){
         Scanner scanner = new Scanner(System.in);
@@ -49,6 +48,7 @@ public class theGame{
             case "ja":
             case "JA":
             System.out.println("Ny runda");
+            break;
             
             case "Nej":
             case "nej":
@@ -61,8 +61,7 @@ public class theGame{
             System.out.println("Ogiltlig input");
             break;}
         }
-    }
-
+    scanner.close();}
     }
 
 
